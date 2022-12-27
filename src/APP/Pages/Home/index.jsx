@@ -6,8 +6,10 @@ import Hero from './Components/Hero'
 
 const Homepage = () => {
   return (
-    <div className='h-[1500px]'>
-      <Navbar />
+    <div className='h-[1500px] relative'>
+      <div className="fixed z-20">
+          <Navbar />
+      </div>
       <Hero />
     </div>
   )

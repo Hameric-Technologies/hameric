@@ -22,8 +22,8 @@ const Navbar = () => {
                 <img className='w-28 mx-5 md:w-40 cursor-pointer' src={logo} alt="" />
                 <div className="hidden md:flex justify-between">
                     <div className="text-gray-900 text-lg font-semibold my-auto hover:underline hover:underline-offset-8 mx-4 hover:text-gray-800 cursor-pointer">About us <FcAbout className='inline-block' /> </div> 
-                    <h1 className="text-gray-900 text-lg font-semibold my-auto hover:underline hover:underline-offset-8 mx-6 hover:text-gray-800 cursor-pointer">Services <FcBriefcase className='inline-block'/> </h1>
-                    <h1 className="text-gray-900 text-lg font-semibold my-auto hover:underline hover:underline-offset-8 mx-6 hover:text-gray-800 cursor-pointer">Articles <FcReading className='inline-block' /></h1>
+                    <h2 className="text-gray-900 text-lg font-semibold my-auto hover:underline hover:underline-offset-8 mx-6 hover:text-gray-800 cursor-pointer">Services <FcBriefcase className='inline-block'/> </h2>
+                    <h2 className="text-gray-900 text-lg font-semibold my-auto hover:underline hover:underline-offset-8 mx-6 hover:text-gray-800 cursor-pointer">Articles <FcReading className='inline-block' /></h2>
                 </div>
             </div>
             <div className="py-3 flex justify-end">
