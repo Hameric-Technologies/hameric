@@ -4,6 +4,7 @@ import './index.css'
 import Navbar from './Components/Navbar'
 import Hero from './Components/Hero'
 import TrustedBy from './Components/TrustedBy'
+import Services from './Components/Services'
 
 const Homepage = () => {
   return (
@@ -13,6 +14,7 @@ const Homepage = () => {
       </div>
       <Hero />
       <TrustedBy />
+      <Services />
     </div>
   )
 }
