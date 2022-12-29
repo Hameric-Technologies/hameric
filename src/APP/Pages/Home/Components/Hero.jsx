@@ -10,8 +10,8 @@ const Hero = () => {
         <div>
           <div className="flex flex-col md:flex-row justify-around items-center max-w-screen-2xl mx-auto md:px-6">
             <div className=''>
-                <h1 className='text-7xl md:text-7xl font-extrabold my-auto text-center md:text-start md:mt-0 mt-28 md:px-10 text-black'>WE PRIDE IN BUILDING BRANDS</h1>
-                <p className='md:px-10 py-10 text-center md:text-start text-xl px-20'>We know the hassle it takes to find the right team or the best services to get your brand started or built. </p>
+                <h1 className='text-7xl md:text-7xl font-extrabold my-auto text-center md:text-start md:mt-0 mt-28 md:px-10 text-black'>WE TAKE PRIDE IN PROVIDING QUALITY SERVICES</h1>
+                <p className='md:px-10 py-10 text-center md:text-start text-xl px-20'>Need a reliable partner for all your software development and IT needs? Our team at <span className='font-extrabold text-indigo-900'>Hameric</span> offers top-quality software development and IT services. </p>
                 <div className="flex justify-center md:justify-start py-7 md:px-10">
                     <div className=" md:block py-3 px-6 mr-6 bg-black text-white font-semibold rounded-2xl my-auto cursor-pointer hover:bg-gray-700">Our services</div>
                     <div className=" md:block py-3 px-6 mr-6 bg-none text-black border-2 border-gray-800 font-semibold rounded-2xl my-auto cursor-pointer hover:bg-indigo-800 hover:border-indigo-400 hover:text-white">About Us </div>
