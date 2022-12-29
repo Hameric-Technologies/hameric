@@ -7,8 +7,8 @@ import { Fade } from 'react-awesome-reveal'
 
 const Services = () => {
   return (
-    <> 
-    <h2 className="text-3xl font-bold text-center mt-20 md:mt-40 mb-10 underline underline-offset-8">Services</h2>
+    <div className='my-14'> 
+    <h2 className="text-3xl font-bold text-center mt-40 md:mt-40 mb-28 underline underline-offset-8">Services</h2>
     <div className='flex flex-col md:flex-row justify-center items-center max-w-screen-2xl mx-auto md:px-6'>
         <Fade cascade={true} damping={0.1} triggerOnce>
             <div className='h-72 w-96 md:h-72 p-10 m-6 rounded-3xl bg-white hover:bg-gray-100 flex flex-col justify-center transition duration-150 ease-out hover:ease-in text-center relative'>
@@ -35,7 +35,7 @@ const Services = () => {
             </div>
         </Fade>
     </div>
-    </>
+    </div>
   )
 }
 
