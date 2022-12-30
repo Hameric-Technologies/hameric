@@ -7,6 +7,7 @@ import TrustedBy from './Components/TrustedBy'
 import Services from './Components/Services'
 import About from './Components/About'
 import Corevalues from './Components/Corevalues'
+import Feature from './Components/Feature'
 
 const Homepage = () => {
   return (
@@ -19,6 +20,7 @@ const Homepage = () => {
       <Services />
       <About />
       <Corevalues />
+      <Feature />
     </div>
   )
 }
