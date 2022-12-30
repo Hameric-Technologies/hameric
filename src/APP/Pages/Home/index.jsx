@@ -5,6 +5,7 @@ import Navbar from './Components/Navbar'
 import Hero from './Components/Hero'
 import TrustedBy from './Components/TrustedBy'
 import Services from './Components/Services'
+import About from './Components/About'
 
 const Homepage = () => {
   return (
@@ -15,6 +16,7 @@ const Homepage = () => {
       <Hero />
       <TrustedBy />
       <Services />
+      <About />
     </div>
   )
 }
