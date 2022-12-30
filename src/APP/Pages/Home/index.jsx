@@ -9,6 +9,7 @@ import About from './Components/About'
 import Corevalues from './Components/Corevalues'
 import Feature from './Components/Feature'
 import CTA from './Components/CTA'
+import Footer from './Components/Footer'
 
 const Homepage = () => {
   return (
@@ -23,6 +24,7 @@ const Homepage = () => {
       <Corevalues />
       <Feature />
       <CTA />
+      <Footer />
     </div>
   )
 }
