@@ -7,7 +7,7 @@ import { Slide } from 'react-awesome-reveal'
 
 const Services = () => {
   return (
-    <div className='my-14'> 
+    <div className='my-14' id='services'> 
     <h2 className="text-3xl font-bold text-center mt-40 md:mt-40 mb-28 underline underline-offset-8">Services</h2>
     <div className='flex flex-col md:flex-row justify-center items-center max-w-screen-2xl mx-auto md:px-6'>
         <Slide cascade={true} damping={0.2} triggerOnce>

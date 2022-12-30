@@ -7,6 +7,7 @@ import { FcBriefcase } from "react-icons/fc";
 import { FcReading } from "react-icons/fc";
 import { FcCallback } from "react-icons/fc";
 import { Fade } from "react-awesome-reveal";
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     const [positionY, setPositionY] = useState(' bg-[#fff5ec] shadow-none ')
@@ -19,7 +20,7 @@ const Navbar = () => {
          <div className='relative'>
         <nav className={`w-11/12 py-2 md:py-2 rounded-full md:rounded-3xl  ${positionY} transition ease-in-out delay-150  flex justify-between mx-auto mt-4 fixed left-0 right-0 z-10 `}>
             <div className="py-2 flex justify-start">
-                <img className='w-28 mx-5 md:w-40 cursor-pointer' src={logo} alt="" />
+                <Link to='/'><img className='w-28 mx-5 md:w-40 cursor-pointer' src={logo} alt="" /></Link>
                 <div className="hidden md:flex justify-between">
                     <div className="text-gray-900 text-lg font-semibold my-auto hover:underline hover:underline-offset-8 mx-4 hover:text-gray-800 cursor-pointer">About us <FcAbout className='inline-block' /> </div> 
                     <h2 className="text-gray-900 text-lg font-semibold my-auto hover:underline hover:underline-offset-8 mx-6 hover:text-gray-800 cursor-pointer">Services <FcBriefcase className='inline-block'/> </h2>

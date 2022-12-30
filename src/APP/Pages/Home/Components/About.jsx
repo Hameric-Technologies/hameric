@@ -4,7 +4,7 @@ import { Fade } from 'react-awesome-reveal'
 
 const About = () => {
   return (
-    <div className='w-full'>
+    <div className='w-full' id='about'>
         <Fade cascade={true} triggerOnce={true}>
             <div className=" mt-28 max-w-md md:max-w-screen-lg mx-auto">
                 <h2 className="text-center text-3xl px-14 underline underline-offset-8  font-bold mb-20"></h2>
