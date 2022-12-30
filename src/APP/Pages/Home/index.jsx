@@ -8,6 +8,7 @@ import Services from './Components/Services'
 import About from './Components/About'
 import Corevalues from './Components/Corevalues'
 import Feature from './Components/Feature'
+import CTA from './Components/CTA'
 
 const Homepage = () => {
   return (
@@ -21,6 +22,7 @@ const Homepage = () => {
       <About />
       <Corevalues />
       <Feature />
+      <CTA />
     </div>
   )
 }

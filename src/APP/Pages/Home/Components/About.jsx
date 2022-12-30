@@ -13,10 +13,10 @@ const About = () => {
                         <img src={ManWoman} alt="Man and woman discussing" className='mx-auto' />
                     </div>
                     <div className='md:w-6/12'>
-                        <h2 className="text-4xl mt-10 md:mt-0 font-bold text-center my-7">Why Hameric?</h2>
-                        <p className='my-4 text-lg text-center md:text-start'>Hameric is a talented, passionate team of developers, designers and IT professionals. However, we don’t associate ourselves with your typical web agency. We don’t force large, annual contracts. We adhere to extremely high quality standards that often results to more trust with clients. We don’t run from communication with clients – we run towards it.</p>
+                        <h2 className="text-3xl mt-10 md:mt-0 font-bold  mx-5 md:mx-1 underline underline-offset-8 my-7">Why Hameric?</h2>
+                        <p className='my-4 text-lg text-start mx-5 md:mx-1 md:text-start'>Hameric is a talented, passionate team of developers, designers and IT professionals. However, we don’t associate ourselves with your typical web agency. We don’t force large, annual contracts. We adhere to extremely high quality standards that often results to more trust with clients. We don’t run from communication with clients – we run towards it.</p>
 
-                        <p className='my-6 text-lg text-center md:text-start'>Clients are often amazed with the level of personalization and customization we provide to each and every work or product deliveries we do, and one of the key metrics we pride ourselves on is not having a single refund for any of the work we provided or supplies we make!</p>
+                        <p className='my-6 text-lg text-start mx-5 md:mx-1 md:text-start'>Clients are often amazed with the level of personalization and customization we provide to each and every work or product deliveries we do, and one of the key metrics we pride ourselves on is not having a single refund for any of the work we provided or supplies we make!</p>
                     </div>
                 </div>
             </div>

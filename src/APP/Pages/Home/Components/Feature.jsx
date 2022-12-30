@@ -33,7 +33,7 @@ const Feature = () => {
                             <h2 className="font-bold text-sm text-white px-5 py-1 bg-green-900 rounded">Complete</h2>
                         </div>
                     </div>
-                    <img src={pass} className='w-48 -left-20 self-center absolute -bottom-14' alt="Mobile and Web apps" />
+                    <img src={pass} className='w-48 left-0 md:-left-20 self-center absolute -bottom-14' alt="Mobile and Web apps" />
                 </div>
             </div>
         </div>
