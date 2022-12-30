@@ -6,6 +6,7 @@ import Hero from './Components/Hero'
 import TrustedBy from './Components/TrustedBy'
 import Services from './Components/Services'
 import About from './Components/About'
+import Corevalues from './Components/Corevalues'
 
 const Homepage = () => {
   return (
@@ -17,6 +18,7 @@ const Homepage = () => {
       <TrustedBy />
       <Services />
       <About />
+      <Corevalues />
     </div>
   )
 }
