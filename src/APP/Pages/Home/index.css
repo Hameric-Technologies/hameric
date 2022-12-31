@@ -1,0 +1,19 @@
+
+
+body {
+    background-color: #fff5ec;
+}
+
+.values{
+    background-image: url('https://images.pexels.com/photos/12941576/pexels-photo-12941576.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center right;
+}
+
+.features{
+    background-image: url('https://images.pexels.com/photos/1181587/pexels-photo-1181587.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center right;
+}
